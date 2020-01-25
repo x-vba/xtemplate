@@ -2,7 +2,7 @@
 
 ## Description
 
-XTemplate is a tool for Microsoft Word, PowerPoint, and Outlook that is used to
+[XTemplate](http://x-vba.com/xtemplate) is a tool for Microsoft Word, PowerPoint, and Outlook that is used to
 create templates that can easily pull information from Excel Workbooks so that
 you don't have to fetch this data manually. It provides a very simple template
 syntax, and makes working with recurring, standardized Documents, Presentations,
@@ -16,7 +16,7 @@ Workbooks you want to fetch data from exist within the correct folder, the templ
 will be replaced with the value in the respective Workbook. The template syntax looks
 like this:
 
-{{ C:\Files\[MyWorkbook.xslx]MySheet!A1 }}
+{{ C:\Files\\\[MyWorkbook.xslx]MySheet!A1 }}
 
 In this case, when running the XTemplate Macro, this template will be replaced with
 the value in Range A1 within a Sheet named MySheet, within a Workbook named
